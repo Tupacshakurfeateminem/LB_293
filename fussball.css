@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+height: 200px;
+}
+
+
+
+
+main {
+ font-family: sans-serif;
+ background-color: black;
+}
+
+.Fussballh1{
+    font-size: 64px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+
+footer {
+  background-color: #080808;
+  padding: 10px;
+  text-align: right;
+  color: #FFF;
+}
+
+
+nav {
+    background-color: aqua; 
+    padding: 25px; 
+    font-size: 25px;
+    
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+  }
+ .logo{
+    background-image:src="logo _293.png" alt="Logo" ;
+    width: 250px;
+    border-radius: 10%;
+
+    position: absolute;
+ }
+.textTitelseite{
+     color: aqua;
+}
+
+
+.Beschreibung{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 690px;
+}
+.Beschreibungtext{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+    
+}
+.Titelbild{
+    width: 400px;
+    padding: 10vb 0;
+    margin-left: 1120px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  color: aqua;
+ font-weight: bold;
+
+}
+.container img {
+  margin-right: 100px; 
+  width: 400px;
+}
+@media (max-width: 480px) {
+  header {
+    height: 150px;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .Fussballh1 {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .Beschreibung,
+  .Beschreibungtext {
+    margin-left: 0;
+  }
+
+  .Titelbild {
+    width: 100%;
+    margin-left: 0;
+  }
+
+
+
+
+}
